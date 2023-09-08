@@ -15,7 +15,7 @@ def download_cndt(cpf_cnpj, path):
     }
     chrome_options.add_experimental_option("prefs", prefs)
     with Browser('chrome', options=chrome_options, incognito=True) as browser:
-        url = "http://aplicacao.jt.jus.br/cndtCertidao/inicio.faces"
+        url = "https://cndt-certidao.tst.jus.br/inicio.faces"
         browser.visit(url)
         button = browser.find_by_value('Emitir Certidão')
         button.click()
