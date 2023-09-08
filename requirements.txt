@@ -9,7 +9,7 @@ google-cloud-core==0.28.0
 google-cloud-speech==0.30.0
 google-gax==0.15.16
 googleapis-common-protos==1.5.3
-grpcio==1.8.4
+grpcio==1.53.0
 idna==2.6
 ply==3.8
 protobuf==3.18.3
